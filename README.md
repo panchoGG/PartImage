@@ -1,33 +1,44 @@
 # PartImage
-part镜像致力于解决安卓逆向分析中的脱壳、抓包、frida检测三个难题
 
-基于谷歌pixel4XL,初始版是安卓10系统[目前part已升级到安卓12和安卓14版本，都可以选择定制]
-（有脱不下壳的样本可以联系笔者进行解决）
+part镜像是一个专为逆向分析而生的安卓13（已升级到13）系统、具备脱壳、定制抓包、定制frida等功能，
 
-需要定制的联系QQ：328366802
+目前支持pixel4XL以及pixel6。
 
-# vmp脱壳
+定制的联系QQ：328366802
+
+## 环境
+
+环境干干净净，自带内核级定制root，在应用看来就是一台普通的手机，你不再需要为root检测、xposed检测、vpn检测、ksu检测、面具等等检测而烦恼。
+
+<table>
+  <tr>
+    <td><img src="./hunter.png" width="300"/></td>
+    <td><img src="./momo.png" width="300"/></td>
+  </tr>
+</table>
+
+
+
+# 系统配合定制的抓包软件
+## mt
+<img src="./mt.png" width="800"/>
+
+## ks
+<img src="./ks.png" width="800"/>
+
+## 部分银行级别
+<table>
+  <tr>
+    <td><img src="./某银行1.png" width="500"/></td>
+    <td><img src="./某银行2.png" width="500"/></td>
+  </tr>
+</table>
+
+
+# 脱壳
 参考我帖子的案例：
 https://bbs.kanxue.com/thread-282432.htm
 
-# 抓包
-无需VPN抓包，系统级别绕过sslping，通杀99.99%以上APP抓包。支持美团、快手、支付跳转链接抓取等银行级别的抓包
-## 美团
-![image](https://github.com/user-attachments/assets/24a838e1-a4b4-47c2-b756-24dd3387d767)
-
-
-
-## 快手
-![QQ20240905-000417](https://github.com/user-attachments/assets/2cdea014-819e-4d8c-9f21-84bf812a77dc)
-
-
-## 部分银行级别抓包：
-![image](https://github.com/user-attachments/assets/f6d75f0e-ac40-4301-8e20-24afc8cf15be)
-![image](https://github.com/user-attachments/assets/7982e186-1e1a-4a82-83a0-3d2ba0e5c696)
-
-
-
-## 含过银行级别的定制珍藏版frida：
-![发现精彩](https://github.com/user-attachments/assets/5bb56b49-2188-462d-80f1-20c1075c0e3d)
-![建设银行](https://github.com/user-attachments/assets/3863e653-05f8-4ac9-b2eb-abed90c9e466)
-
+## 定制版frida：
+参考我帖子的案例：
+https://bbs.kanxue.com/thread-285628.htm
