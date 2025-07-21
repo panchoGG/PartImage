@@ -39,7 +39,7 @@ part镜像是一个专为逆向分析而生的安卓13（已升级到13）系统
 参考我帖子的案例：
 https://bbs.kanxue.com/thread-282432.htm
 
-## 定制版frida：
+## 定制版frida
 0721-最近比较忙一直忘记更新了，这个月更新支持最新数字企业版frida检测通杀.
 <img src="./3x0企业.png" width="800"/>
 
