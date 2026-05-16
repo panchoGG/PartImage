@@ -20,9 +20,20 @@ part镜像是一个专为逆向分析而生的安卓13系统、具备脱壳、�
 </table>
 
 
-
 # 系统配合定制的抓包软件
+
+定制抓包直接直接抓字节tiktok系列的所有app以及一些难抓的比如中国移动中国电信、翼支付、虎牙直播等app。
+
+## dy
+
+<img src="./zijie.png" width="800"/>
+
+## 中国电信
+
+<img src="./dianxin.png" width="800"/>
+
 ## mt
+
 <img src="./mt.png" width="800"/>
 
 ## ks
